@@ -1,23 +1,9 @@
-let input = "loveleetcode"
-var count =0
-var answer = 0
-let x = 0;
-while(x < input.length){
-    var letter = input[x];
-    let index =0;
-    while(index < input.length){
-        if(letter == input[index]){
-            count++;
-        }
-        index++;
-        if (count === 1){
-            answer = x;
-            console.log(answer)
-            break;
+let input = "leetcode"
+for(let i =0; i < input.length; i++){
+    for(let j = i +1; j < input.length; j++){
+        if(input[i]==input[j]){break;}
+        if(j ===input -1){
+            
         }
     }
-    count = index;
-    
-    x++;
 }
-console.log(answer)

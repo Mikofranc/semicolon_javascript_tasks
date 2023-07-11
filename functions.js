@@ -4,7 +4,6 @@ function factorial(values){
     }
     return answer;
 }
-
 function sum(values){
     return values + 25;
 }
