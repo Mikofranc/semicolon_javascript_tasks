@@ -12,5 +12,3 @@ for(let index = 0; index < arr.length; index++){
     z += newWord
 }
 console.log(z);
-
-

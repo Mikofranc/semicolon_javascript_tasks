@@ -1,4 +1,4 @@
-let prompt = require('prompt-sync')()
+let prompt = require('prompt-sync')();
 var length = 3
 var width = 3
 var board = [[],[],[]]
